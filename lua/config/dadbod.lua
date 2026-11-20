@@ -1,1 +1,1 @@
-vim.keymap.set("n", "<leader>db", "<cmd>DBUI<CR>")
+vim.keymap.set("n", "<leader>db", "<cmd>DBUIToggle<CR>")
