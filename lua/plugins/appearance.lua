@@ -33,12 +33,9 @@ return {
     event = "VeryLazy",
     priority = 1000,
 
-    opts = {
-      transparent_bg = true
-    },
     config = function()
-        require("tiny-inline-diagnostic").setup()
-        vim.diagnostic.config({ virtual_text = false }) -- Disable Neovim's default virtual text diagnostics
+      require("tiny-inline-diagnostic").setup()
+      vim.diagnostic.config({ virtual_text = false }) -- Disable Neovim's default virtual text diagnostics
     end,
   },
 }

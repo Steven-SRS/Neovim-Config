@@ -10,6 +10,7 @@ require("config.undotree")
 require("config.mini")
 require("config.lsp")
 require("config.dadbod")
+require("config.inline-diagnostic")
 
 vim.api.nvim_create_autocmd("ColorScheme", {
   pattern = "*",
