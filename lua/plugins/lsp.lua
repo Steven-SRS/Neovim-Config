@@ -1,8 +1,8 @@
 return {
   {
     "https://github.com/neovim/nvim-lspconfig",
-    config = function ()
-            
+    config = function()
+
     end,
   },
   {
@@ -17,7 +17,6 @@ return {
         "pyright",
         "laravel_lsp",
         -- "pint" --> Install manually using MasonInstall pint,
-
       }
     },
     dependencies = {
